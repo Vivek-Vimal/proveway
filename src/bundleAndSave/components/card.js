@@ -2,11 +2,23 @@ import React from "react";
 import "../bundleAndSaveMaster.css";
 
 const Card = (props) => {
+  const { setCurrentItem } = props;
+  const onRadioClick = (status) => {
+    let currentVal = status.target.value;
+    setCurrentItem(currentVal);
+  };
+
   return (
-    <section className="Pancard">
+    <section className="card">
       <div className="flex spaceBetween">
         <div className="flex">
-          <input type="radio" className="radioBtn" />
+          <input
+            type="radio"
+            className="radioBtn"
+            onClick={onRadioClick}
+            value={props?.id}
+            name="foo"
+          />
           <div style={{ margin: "0 0 0 16px" }}>
             <p className="pairText">{props?.pair}</p>
             <p className="amountText">{props?.amount}</p>

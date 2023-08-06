@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.Pancard {
+.card {
   border: 0.9px solid #c8c8c8;
   width: 340.73px;
   padding: 20px;
@@ -162,7 +162,7 @@ td {
   text-align: left;
 }
 
-.DetailedPancard {
+.Detailedcard {
   font-family: "Inter", sans-serif;
   border: 0.9px solid #007f61;
   width: 340.73px;
@@ -174,4 +174,5 @@ td {
 
 .radioBtn {
   accent-color: #007f61;
+  cursor: pointer;
 }

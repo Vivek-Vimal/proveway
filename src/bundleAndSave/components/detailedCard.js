@@ -3,7 +3,7 @@ import "../bundleAndSaveMaster.css";
 
 const DetailedCard = (props) => {
   return (
-    <section className="DetailedPancard">
+    <section className="Detailedcard">
       <div className="flex spaceBetween end">
         <div className="flex auto">
           <input type="radio" checked className="radioBtn"/>
@@ -13,7 +13,7 @@ const DetailedCard = (props) => {
           </div>
         </div>
         <p className="crossText">
-          <del>DKK 195.00</del>
+          <del>{props?.higherAmount}</del>
         </p>
 
         <div>
