@@ -1,0 +1,177 @@
+.flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.Pancard {
+  border: 0.9px solid #c8c8c8;
+  width: 340.73px;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 18px 0 0 0;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.bundleAndSave {
+  width: 340.73px;
+  flex-direction: column;
+}
+
+.header {
+  font-family: MetropolisMedium;
+  font-size: 18.08px;
+  font-weight: 500;
+  line-height: 18.08px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #007f61;
+  margin: 0 12px;
+}
+
+.pairText {
+  font-family: MetropolisRegular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 6px 0;
+}
+
+.amountText {
+  font-family: MetropolisMedium;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.timeText {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #007f61;
+  font-family: "Inter", sans-serif;
+}
+
+.margin {
+  margin: 18px 0;
+}
+
+.totalText {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.totalAmount {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.powerText {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin: 8px 0 0 0;
+}
+
+.mostPopular {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #007f61;
+  white-space: nowrap;
+  margin: 0 0 6px 0;
+}
+
+.tableHeadText {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.table {
+  margin: 3px 0 0 7px;
+}
+
+.select {
+  width: 65.97763061523438px;
+  height: 25.306488037109375px;
+}
+
+th,
+td {
+  padding: 3px;
+}
+
+.number {
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 11px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.auto {
+  width: auto !important;
+}
+
+.end {
+  align-items: flex-end !important;
+}
+
+.crossText {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 0 8px;
+  color: #9f9f9f;
+}
+
+.dropdownText {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.DetailedPancard {
+  font-family: "Inter", sans-serif;
+  border: 0.9px solid #007f61;
+  width: 340.73px;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 18px 0 0 0;
+  background-color: rgba(0, 127, 97, 0.05);
+}
+
+.radioBtn {
+  accent-color: #007f61;
+}
